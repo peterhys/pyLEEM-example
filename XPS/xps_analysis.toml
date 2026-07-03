@@ -1,0 +1,33 @@
+[session]
+version = "0.3.0"
+reader = "UViewReader"
+roi = "LineROI"
+analyzer = "XPSAnalyzer"
+
+[reader]
+paths = [
+    "XPS_O1s__000_000.dat",
+    "XPS_O1s__000_001.dat",
+    "XPS_O1s__000_002.dat",
+    "XPS_O1s__000_003.dat",
+    "XPS_O1s__000_004.dat",
+]
+metadata = {"Beam Energy" = [680.0, "eV"]}
+metadata_list = [
+    {"Start Voltage" = [141.0, "eV"]},
+    {"Start Voltage" = [143.0, "eV"]},
+    {"Start Voltage" = [145.0, "eV"]},
+    {"Start Voltage" = [147.0, "eV"]},
+    {"Start Voltage" = [149.0, "eV"]},
+]
+
+[roi]
+roi_file = "xps_roi.roi"
+
+[analyzer]
+pixel_per_ev = 165.0
+peak_shift = 0.7843903559481586
+
+[task]
+
+[result]

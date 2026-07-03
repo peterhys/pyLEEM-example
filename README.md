@@ -4,5 +4,5 @@ Here we provide test datasets for the [pyLEEM](https://github.com/peterhys/pyLEE
 
 The repo contains:
 
-- XPS: segmented O1s spectra raw data
+- XPS: segmented O1s spectra raw data; calibration and analysis configuration files.
 - XAS: HBN full-field image
